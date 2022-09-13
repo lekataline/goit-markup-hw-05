@@ -177,7 +177,7 @@ ul {
   position: relative;
   top: 95%;
   right: 0;
-  /* bottom: 0; */
+
 
   display: block;
   width: 100%;
@@ -699,7 +699,8 @@ ul {
   transform: translateY(100%);
 }
 
-.gallery-link:hover .gallery-overlay {
+.gallery-link:hover .gallery-overlay,
+.gallery-link:focus .gallery-overlay {
   transform: translateY(0);
   opacity: 1;
 }
